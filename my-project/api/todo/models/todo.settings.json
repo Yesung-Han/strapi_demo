@@ -20,6 +20,10 @@
     },
     "dueDate": {
       "type": "datetime"
+    },
+    "writer": {
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }
